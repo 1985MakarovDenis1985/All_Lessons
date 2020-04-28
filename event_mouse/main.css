@@ -1,0 +1,14 @@
+#block{
+    height: 300px;
+    width: 100px;
+    background: yellow;
+    position: relative;
+}
+
+#scroll{
+    height: 20px;
+    width: 100px;
+    background: blue;
+    position: absolute;
+    top: 150px;
+}
