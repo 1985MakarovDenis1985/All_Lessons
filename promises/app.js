@@ -92,6 +92,9 @@
 //     .then(()=>{
 //         console.log("completed Race")
 //     })
+//// -----
+// polifyll
+// <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
 
 
 
