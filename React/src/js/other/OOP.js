@@ -44,9 +44,6 @@
 // newOgj.port = "9000"
 // console.log(newOgj, obj)
 
-//// => ---------------- 3 способ
-// newOgj = {...obj}
-
 
 /////// => ------------------------------ GET SET ???
 //  // Part two
@@ -69,8 +66,6 @@
 //
 // let user2 = {};
 // user2.__proto__ = user; // => наследуем значения у user / прототип
-// Object.setPrototypeOf(user2, user) // => или так
-// console.log(user2.__proto__.firstName) // => обратится к свойству родителя
 //
 // console.log(user);
 // console.log(user2);
@@ -140,6 +135,7 @@
 //     get name(){
 //         return this._name
 //     }
+//     // b = "bbb"
 // }
 //
 // let stu = new User();
@@ -154,8 +150,8 @@
 //         this.name = name;
 //     }
 //
-//     static getRole() {  // => позволяет обращатся к методу не создавая instance
-//         /**              // - сразу через класс
+//     static getRole() {
+//         /**
 //          * реализация какого то кода
 //          */
 //         return "student"
@@ -240,16 +236,6 @@
 //////////////////
 
 
-
-
-
-
-
-
-
-
-
-
 /// ==========  lessson 1 ======== /// => разобраться с наследованием функции и добавлением в нее нового style
 // class Button {
 //     constructor(width, height, background, value) {
@@ -277,7 +263,7 @@
 //
 // let btn1 = new Button(100, 100, "red", "");
 // btn1.render();
-// // btn1.add();
+// btn1.add();
 //
 // class ModernButton extends Button {
 //     constructor(width, height, background, value, borderRadius = 0) {
@@ -291,44 +277,6 @@
 //
 // let btn2 = new ModernButton(150, 100, "red", "", "5");
 // btn2.render();
-
-
-/// ==========  lessson 2   Object.create  ======== /// =>
-
-// console.log(obj)
-// console.log("=====================")
-//
-// let person = Object.create(
-//     {},
-//     {
-//         name: {
-//             value: "Sam",
-//             enumerable: true,    // => выводит из тени - что бы переберать
-//             writable: true,      // => позволяет перезаписовать ключ
-//             configurable: true   // => позволят удалять ключ
-//         },
-//         BirthYear: {
-//             value: 1993,
-//             enumerable: false,    // => не выводит из тени - что бы переберать
-//             writable: false,      // => не позволяет переписывать ключ
-//             configurable: false   // => не позволяет удалить ключ
-//         },
-//         age: {
-//             get() {                 // => позволяет получать и использовать параметры this
-//                 return new Date().getFullYear() - this.BirthYear
-//             },
-//             set(v) {                // => вызывает функцию с любым аргументом
-//                 document.body.style.background = v
-//                 console.log("set age", v)
-//             }
-//         }
-//     });
-// console.log(person)                  // {name: "Sam", BirthYear: 1993}
-// console.log(person.name);            // {Sam}
-// console.log(person.age);             // {27}
-// console.log(person.age = '')    // { body становиться зеленым}
-
-
 
 /// ==========  Object ======== ///
 // let obj = {

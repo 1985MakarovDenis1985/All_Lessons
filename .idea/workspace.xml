@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f3ef1d-3ed0-49d0-bf21-21bbc6f1fbdd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DB/db2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/api _fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/async_await_fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promises/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rec_zam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ооп/OOP.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async_await/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/async_await/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promises/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/promises/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_await/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/async_await.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object/constr.js" beforeDir="false" afterPath="$PROJECT_DIR$/ооп/object/constr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object/desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ооп/object/desc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ооп/object/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ооп/object/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +55,7 @@
       <workItem from="1588516079693" duration="546000" />
       <workItem from="1588664055991" duration="1000" />
       <workItem from="1588694901145" duration="164000" />
+      <workItem from="1589129966406" duration="123000" />
     </task>
     <servers />
   </component>
