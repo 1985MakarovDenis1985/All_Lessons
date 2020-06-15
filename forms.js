@@ -18,7 +18,9 @@
 //     let formData = new FormData(form) //// => будет передавать все данные с формы
 //     let obj = {}
 //     formData.forEach((el, key) => { // el => это значение из формы
-//         obj[key] = el               // ключи записаны в name в формме
+// //         if (obj.hasOwnProperty(key)){  // => если надо записть в obj только те значения которые которые содержит обеъкт
+//               obj[key] = el               // ключи записаны в name в формме
+// //        }
 //     });
 
 
@@ -54,3 +56,69 @@
 // create().then((data)=>{ //// итоговая функция
 //     addDB(data)
 // })
+
+
+////// ================== создаем | сравниваем с БД | добавляем | =================
+
+// new Promise((res, rej) => {      ////  => создакем новый обьект из формы
+//     formData.forEach((el, key) => {
+//         // if (obj.hasOwnProperty(key)){ ////  => если хотим добавить только существующие свойчтва в объект
+//         obj[key] = el;
+//         // }
+//
+//         res(obj)
+//     });
+// })
+//     .then((obj) => {             ////  => получаем базу данных для сравнения с обьектом
+//         fetch("http://localhost:3000/users")
+//             .then((data) => data.json())
+//             .then((data) => {
+//                 data.forEach((el, key, i) => { //// => сравниваем существует ли объект
+//                     switch (el.firstName === obj.firstName || obj.firstName == "") {
+//                         case true :
+//                             same = true; break;
+//                         case false :
+//                             same = false;
+//                     }
+//
+//                 })
+//
+//             })
+//             .then(() => { ////  => добавляем в базу
+//                 if (same === false) {
+//                     fetch("http://localhost:3000/users", {
+//                         method: 'post',
+//                         headers: {
+//                             'Content-type': 'application/json'
+//                         },
+//                         body: JSON.stringify(obj)
+//                     })
+//                     console.log("Ok")
+//                 } else {
+//                     console.log("already exist")
+//                 }
+//             })
+//     })
+
+//// =================== объект в объекте ====================
+// let form = document.getElementById("form");
+// function createFormObject(e) {
+//     e.preventDefault();
+//     let x = {
+//         firstName: "",
+//         secondName: "",
+//         address: {
+//             city: "",
+//             country: ""
+//         }
+//     };
+//
+//     let newFormData = new FormData(form);
+//     newFormData.forEach((el, key) => {
+//         if (key == "firstName" || key == "secondName" || key == "age"){
+//             x[key] = el
+//         } else if (key == "city" || key == "country"){
+//             x.address[key] = el
+//         }
+//     })
+// }

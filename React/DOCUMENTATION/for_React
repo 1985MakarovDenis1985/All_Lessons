@@ -1,0 +1,29 @@
+for React
+
+ npm i save dev      @babel/preset-react
+                     @babel/runtime, for async away
+                     react
+                     react-dom
+                     npm install --save-dev babel-plugin-transform-class-properties
+
+.bablerc:
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    ["@babel/transform-runtime"],
+    ["transform-class-properties"]
+  ]
+}
+
+
+///// Routing
+npm i react-router react-router-dom
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+
+
+    static getDerivedStateFromProps(props, state) {
+        return {text : props.text}
+    }

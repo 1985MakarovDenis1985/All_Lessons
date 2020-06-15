@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2093c58-8b1c-4fab-b1a5-ef17e02cd467" name="Default Changelist" comment="" />
+    <list default="true" id="c2093c58-8b1c-4fab-b1a5-ef17e02cd467" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/Forms_in_obj.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/DB/db2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/OOP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/RegEx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/api _fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/async_await_fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/challenge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/destructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/get_post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/localStorage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/rec_zam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/other/spread_rest.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -21,6 +43,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1btfhJKQF7gk9KMIKZxDx6sSpGG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +68,7 @@
       <updated>1589456428050</updated>
       <workItem from="1589456430471" duration="10377000" />
       <workItem from="1589548233385" duration="26851000" />
+      <workItem from="1590161014325" duration="84000" />
     </task>
     <servers />
   </component>
